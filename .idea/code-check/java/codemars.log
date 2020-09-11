@@ -1,0 +1,33 @@
+2020-09-11 11:32:48.472 [main] INFO . - user input: D:\apps\_harmony_ide\_ide_dir\DevEco Studio\jbr\bin\java,-j,-source,D:/source/_harmony_os_project/sample/entry/src/main/java/com/example/harmonysample/HarmonySample.java,D:/source/_harmony_os_project/sample/entry/src/main/java/com/example/harmonysample/MainAbility.java,D:/source/_harmony_os_project/sample/entry/src/main/java/com/example/harmonysample/slice/MainAbilitySlice.java,D:/source/_harmony_os_project/sample/entry/src/main/java/com/example/harmonysample/DataAbility.java,-output,D:/source/_harmony_os_project/sample/.idea/code-check/java/output.xml
+2020-09-11 11:32:48.487 [main] INFO . - CodeMars Version:2.1.2.sp4
+2020-09-11 11:32:49.565 [main] INFO . - starting analyzing.
+2020-09-11 11:32:49.909 [main] INFO . - start collecting report.
+2020-09-11 11:32:49.925 [CodeMars1] INFO . - Command: "D:\apps\_harmony_ide\_ide_dir\DevEco Studio\plugins\codecheck\lib\CodeMars\engines\SecFinder-J\bin\run_SecFinder-J.bat",-filelist,D:\source\_harmony_os_project\sample\.idea\code-check\java\filelist_2020_09_11_11_32_49_909_35.txt,-f,xml,-default,-progress,-r,D:\source\_harmony_os_project\sample\.idea\code-check\java\\errorreport_2020_09_11_11_32_48_222_42.xml,-ruleclasspath,file:///D:\source\_harmony_os_project\sample\.idea\code-check\java\ruleclasspath.txt
+2020-09-11 11:32:51.862 [Thread-2] INFO . - 九月 11, 2020 11:32:51 上午 com.huawei.secfinderj.SecFinderJ needScan
+2020-09-11 11:32:51.862 [Thread-2] INFO . - 信息: SecFinder-J Version: 2.1.3
+2020-09-11 11:32:52.545 [Thread-1] INFO . - 2020-09-11 11:32:52.284: SecFinder-J Output: Inspect start...
+2020-09-11 11:32:53.373 [Thread-1] INFO . - 2020-09-11 11:32:53.373: SecFinder-J Output: Load checkers...
+2020-09-11 11:32:54.029 [Thread-1] INFO . - 2020-09-11 11:32:54.029: SecFinder-J Output: Load config...
+2020-09-11 11:32:54.060 [Thread-1] INFO . - 2020-09-11 11:32:54.060: SecFinder-J Output: step 1/4: Find files
+2020-09-11 11:32:54.138 [Thread-1] INFO . - 2020-09-11 11:32:54.138: SecFinder-J Output: step 2/4: Process files
+2020-09-11 11:32:54.201 [Thread-1] INFO . - 2020-09-11 11:32:54.201: SecFinder-J Output: step 3/4: Run analysis...
+2020-09-11 11:32:54.201 [Thread-1] INFO . - 2020-09-11 11:32:54.201: SecFinder-J Output: [SecFinder-J--Thread--4] - during processing of [MainAbilitySlice.java]
+2020-09-11 11:32:54.201 [Thread-1] INFO . - 2020-09-11 11:32:54.201: SecFinder-J Output: [SecFinder-J--Thread--2] - during processing of [HarmonySample.java]
+2020-09-11 11:32:54.201 [Thread-1] INFO . - 2020-09-11 11:32:54.201: SecFinder-J Output: [SecFinder-J--Thread--1] - during processing of [DataAbility.java]
+2020-09-11 11:32:54.201 [Thread-1] INFO . - 2020-09-11 11:32:54.201: SecFinder-J Output: [SecFinder-J--Thread--3] - during processing of [MainAbility.java]
+2020-09-11 11:32:55.320 [Thread-1] INFO . - 2020-09-11 11:32:55.320: SecFinder-J Output: step 4/4: Result output...
+2020-09-11 11:32:55.320 [Thread-1] INFO . - 2020-09-11 11:32:55.320: SecFinder-J Output: Inspect finish...
+2020-09-11 11:32:55.320 [Thread-1] INFO . - Analysis result:
+2020-09-11 11:32:55.320 [Thread-1] INFO . -     files analyzed      : 4
+2020-09-11 11:32:55.320 [Thread-1] INFO . -     lines analyzed      : 139
+2020-09-11 11:32:55.320 [Thread-1] INFO . -     rules used          : 59
+2020-09-11 11:32:55.320 [Thread-1] INFO . -     issues detected     : 0
+2020-09-11 11:32:55.320 [Thread-1] INFO . -     time cost(sec)      : 3
+2020-09-11 11:32:55.320 [Thread-1] INFO . - 
+2020-09-11 11:32:55.320 [Thread-2] INFO . - 九月 11, 2020 11:32:55 上午 com.huawei.secfinderj.override.HwPmd end
+2020-09-11 11:32:55.320 [Thread-2] INFO . - 信息: SecFinder-J run successed!
+2020-09-11 11:32:55.461 [CodeMars1] INFO . - start parse errorreport xml
+2020-09-11 11:32:55.461 [CodeMars1] INFO . - parse xml time : 78
+2020-09-11 11:32:55.461 [CodeMars1] INFO . - end parse errorreport xml
+2020-09-11 11:32:55.461 [main] INFO . - end collecting report.
+2020-09-11 11:32:55.461 [main] INFO . - end analyzing.

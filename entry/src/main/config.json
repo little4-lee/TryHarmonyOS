@@ -1,0 +1,74 @@
+{
+  "app": {
+    "bundleName": "com.example.harmonysample",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.harmonysample",
+    "name": ".HarmonySample",
+    "reqCapabilities": [
+      "video_support"
+    ],
+    "deviceType": [
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "formEnabled": false,
+        "name": "com.example.harmonysample.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "HarmonySample",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "visible": true,
+        "permissions": [
+          "com.example.harmonysample.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.example.harmonysample.DataAbility",
+        "icon": "$media:icon",
+        "description": "$string:dataability_description",
+        "type": "data",
+        "uri": "dataability://com.example.harmonysample.DataAbility"
+      },
+      {
+        "visible": true,
+        "permissions": [
+          "com.example.harmonysample.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.example.harmonysample.AnotherDataAbility",
+        "icon": "$media:icon",
+        "description": "$string:anotherdataability_description",
+        "type": "data",
+        "uri": "dataability://com.example.harmonysample.AnotherDataAbility"
+      }
+    ]
+  }
+}
